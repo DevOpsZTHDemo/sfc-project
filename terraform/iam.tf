@@ -18,6 +18,10 @@ resource "aws_iam_user" "admin_user" {
   name = "Rahul"
 }
 
+resource "aws_iam_user" "admin_user" {
+  name = "Vaibhav"
+}
+
 resource "aws_iam_user" "dev_user" {
   name = "Abhishek"
 
